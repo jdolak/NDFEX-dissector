@@ -1,17 +1,21 @@
-This is a Wireshark dissector for the NDFEX protocol for Notre Dames's HFT Techonologies SP 2025 class.
-  
-This was made by:
-    - Jachob Dolak
+# NDFEX Wireshark Dissector
 
+Wireshark dissectors can be made to analyze protocols not natively supported by Wireshark.
+
+NDFEX-Dissector is a dissector made by Jachob Dolak for the NDFEX protocol for Notre Dames's High Frequency Trading Techonologies class.
+  
+  
 ![protocol example screenshot](./ndfex_screenshot.jpg)
 
 ## Installation
 
 To install, copy this file to your Wireshark plugins direcroty.  
-  This can be done with the following command on MacOS:  
-
-    `cp ./wireshark_dissector.lua /Applications/Wireshark.app/Contents/PlugIns/wireshark/wireshark_dissector.lua`
-  and reloading Wireshark's plugins.
+  
+This can be done with the following command on MacOS:  
+```sh
+cp ./wireshark_dissector.lua /Applications/Wireshark.app/Contents/PlugIns/wireshark/wireshark_dissector.lua`
+```
+After, reload Wireshark's plugins.
 
 ## Contributing
 
